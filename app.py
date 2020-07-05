@@ -58,10 +58,41 @@
 # "address": "4803 Wellesley St."}
 # print(customer["address"])
 
-import datetime
+# print ("this is \\\\ double backlash")
+# print ("this is /\\/\\/\\/\\/\\ mountain")
+# print ("this is \t awesome")
+# print (" \\\" \\n \\t \\\" ")
+# print ("\U0001F603\U0001F603")
+# print ("😌😌😈")
 
-datetime_object = datetime.datetime.now()
-print(datetime_object)
+# name = "Ak"
+# age = str(20)
+# print ("{} is a best python developer in {} age".format (name, age))
+# print (f"{name} is a best python developer in {age} age")
+
+# num1 = int(input("Enter your first number" ))
+# num2 = int(input("Enter your 2 number" ))
+# num3 = int(input("Enter your 3 number" ))
+# num1, num2, num3 = input("Enter 3 numbers seprated by comma : ").split(",")
+# print (f"average of three numbers : {(int(num1) + int(num2) + int(num3)) // 3}")
+
+# print ("1 \n12 \n123 \n1234 \n12345 \n1234 \n123 \n12 \n1 ")
+
+# name=input("enter your full name: ")
+# print(f"reverse of your name is {name[-1::-1]}")
+
+# name, character = input("Enter your name and character").split(',')
+# print (f"length of your name is {len(name)}")
+# print (f"chracter count : {name.count(character)}")
+
+# name = "   Alliyan Khan    "
+# dots = "............."
+# print (name + dots)
+# print (name.lstrip() + dots)
+# print (name.rstrip() + dots)
+# print (name.strip() + dots)
+# print (name.replace( " ", ""))
+
 
 
 
